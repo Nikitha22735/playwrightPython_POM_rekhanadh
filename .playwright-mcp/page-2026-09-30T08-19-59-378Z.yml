@@ -1,0 +1,938 @@
+- generic [ref=f8e2]:
+  - navigation "Shortcuts menu" [ref=f8e3]:
+    - heading "Skip to" [level=2] [ref=f8e4]
+    - list "Skip to" [ref=f8e5]:
+      - listitem [ref=f8e6]:
+        - link "main content" [ref=f8e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=f8e8]:
+        - link "Shopping cart" [ref=f8e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+    - separator [aria-hidden] [ref=f8e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=f8e11]
+    - list "Keyboard shortcuts" [ref=f8e12]:
+      - listitem [ref=f8e13]:
+        - link "Search, alt, forward slash" [ref=f8e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f8e15]:
+            - generic [ref=f8e16]: Search
+            - generic [ref=f8e17]:
+              - generic [ref=f8e18]: alt
+              - generic [ref=f8e19]: +
+              - generic [ref=f8e20]: /
+      - listitem [ref=f8e21]:
+        - link "Cart, shift, alt, c" [ref=f8e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f8e23]:
+            - generic [ref=f8e24]: Cart
+            - generic [ref=f8e25]:
+              - generic [ref=f8e26]: shift
+              - generic [ref=f8e27]: +
+              - generic [ref=f8e28]: alt
+              - generic [ref=f8e29]: +
+              - generic [ref=f8e30]: C
+      - listitem [ref=f8e31]:
+        - link "Home, shift, alt, h" [ref=f8e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f8e33]:
+            - generic [ref=f8e34]: Home
+            - generic [ref=f8e35]:
+              - generic [ref=f8e36]: shift
+              - generic [ref=f8e37]: +
+              - generic [ref=f8e38]: alt
+              - generic [ref=f8e39]: +
+              - generic [ref=f8e40]: H
+      - listitem [ref=f8e41]:
+        - link "Your orders, shift, alt, o" [ref=f8e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f8e43]:
+            - generic [ref=f8e44]: Orders
+            - generic [ref=f8e45]:
+              - generic [ref=f8e46]: shift
+              - generic [ref=f8e47]: +
+              - generic [ref=f8e48]: alt
+              - generic [ref=f8e49]: +
+              - generic [ref=f8e50]: O
+      - listitem [ref=f8e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f8e52] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f8e53]:
+            - generic [ref=f8e54]: Show/Hide shortcuts
+            - generic [ref=f8e55]:
+              - generic [ref=f8e56]: shift
+              - generic [ref=f8e57]: +
+              - generic [ref=f8e58]: alt
+              - generic [ref=f8e59]: +
+              - generic [ref=f8e60]: Z
+    - generic [ref=f8e61]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f8e67]:
+    - navigation "Primary" [ref=f8e68]:
+      - generic [ref=f8e69]:
+        - generic [ref=f8e70]:
+          - link "Amazon.in" [ref=f8e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Khammam 507002 Update location" [ref=f8e75] [cursor=pointer]:
+            - generic [ref=f8e77]:
+              - generic [ref=f8e78]: Delivering to Khammam 507002
+              - generic [ref=f8e79]: Update location
+        - search [ref=f8e82]:
+          - generic [ref=f8e85]:
+            - generic [ref=f8e86]: All
+            - combobox "Select the department you want to search in" [ref=f8e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=f8e92]
+          - generic "Go" [ref=f8e95] [cursor=pointer]:
+            - button "Go" [ref=f8e96]
+        - generic [ref=f8e98]:
+          - generic [ref=f8e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=f8e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f8e103]:
+                - img "India" [ref=f8e104]
+                - generic [ref=f8e105]: EN
+            - button "Expand to Change Language or Country" [ref=f8e106] [cursor=pointer]
+          - generic [ref=f8e107]:
+            - link "Hello, sign in Account & Lists" [ref=f8e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcart%2Fview.html%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f8e109]: Hello, sign in
+              - generic [ref=f8e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=f8e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=f8e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f8e114]: Returns
+            - generic [ref=f8e115]: "& Orders"
+          - link "1 item in cart" [ref=f8e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [aria-hidden] [ref=f8e118]: "1"
+            - generic [aria-hidden] [ref=f8e121]: Cart
+      - generic [ref=f8e122]:
+        - button "Open All Categories Menu" [ref=f8e124] [cursor=pointer]:
+          - generic [ref=f8e126]: All
+        - list [ref=f8e130]:
+          - listitem [ref=f8e131]:
+            - generic [ref=f8e132]:
+              - link "Fresh" [ref=f8e133] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=f8e134] [cursor=pointer]
+          - listitem [ref=f8e135]:
+            - link "Prime Video" [ref=f8e137] [cursor=pointer]:
+              - /url: https://www.primevideo.com/offers/nonprimehomepage/ref_=nav_dvm_crs_in_s_gw_bt_dk_p_hamburgr?ref_=avod_desktop_topnav
+          - listitem [ref=f8e138]:
+            - link "Sell" [ref=f8e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=f8e141]:
+            - link "Bestsellers" [ref=f8e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=f8e144]:
+            - link "Today's Deals" [ref=f8e146] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f8e147]:
+            - link "Mobiles" [ref=f8e149] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=f8e150]:
+            - link "Customer Service" [ref=f8e152] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=f8e153]:
+            - link "New Releases" [ref=f8e155] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f8e156]:
+            - generic [ref=f8e157]:
+              - link "Prime" [ref=f8e158] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f8e159] [cursor=pointer]
+          - listitem [ref=f8e160]:
+            - link "Electronics" [ref=f8e162] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=f8e163]:
+            - link "Home & Kitchen" [ref=f8e165] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=f8e166]:
+            - link "Fashion" [ref=f8e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=f8e169]:
+            - link "Amazon Pay" [ref=f8e171] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=f8e172]:
+            - link "Car & Motorbike" [ref=f8e174] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=f8e175]:
+            - link "Pet Supplies" [ref=f8e177] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=f8e178]:
+            - link "Grocery & Gourmet Foods" [ref=f8e180] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=f8e181]:
+            - link "Beauty & Personal Care" [ref=f8e183] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=f8e184]:
+            - link "Gift Cards" [ref=f8e186] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=f8e187]:
+            - link "Computers" [ref=f8e189] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=f8e190]:
+            - link "Toys & Games" [ref=f8e192] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=f8e193]:
+            - link "Video Games" [ref=f8e195] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=f8e196]:
+            - link "Sports, Fitness & Outdoors" [ref=f8e198] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=f8e199]:
+            - link "Home Improvement" [ref=f8e201] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=f8e202]:
+            - link "Custom Products" [ref=f8e204] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=f8e205]:
+            - link "Baby" [ref=f8e207] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=f8e208]:
+            - link "Health, Household & Personal Care" [ref=f8e210] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=f8e211]:
+            - link "Audible" [ref=f8e213] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=f8e214]:
+            - link "AmazonBasics" [ref=f8e216] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=f8e217]:
+            - link "Subscribe & Save" [ref=f8e219] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f8e220]:
+            - link "Amazon Pharmacy" [ref=f8e222] [cursor=pointer]:
+              - /url: /medical/browse/home?ref_=nav_navx-desco-pharma
+          - listitem [ref=f8e223]:
+            - link "Kindle eBooks" [ref=f8e225] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=f8e226]:
+            - link "Flights" [ref=f8e228] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "Jan26_Event" [ref=f8e232] [cursor=pointer]:
+          - /url: /events/greatindianfestival/3/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=aae09ce7-f0d7-40bd-9785-222a352c189d&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=931RPHXJCENSVNYCFJFB
+          - img "Jan26_Event" [ref=f8e233]
+  - main [ref=f8e236]:
+    - heading "All Carts" [level=1] [ref=f8e237]
+    - generic [ref=f8e239]:
+      - generic [ref=f8e241]:
+        - generic [ref=f8e245]:
+          - generic [ref=f8e246]:
+            - generic [ref=f8e247]:
+              - progressbar [ref=f8e250]
+              - generic [ref=f8e252]: ₹499
+            - generic [ref=f8e258]:
+              - text: Your order is eligible for FREE Delivery.
+              - generic [ref=f8e259]:
+                - text: Choose
+                - link "FREE Delivery" [ref=f8e260] [cursor=pointer]:
+                  - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+                - text: option at checkout.
+          - generic [ref=f8e261]:
+            - 'heading "Amazon Subtotal (1 item): ₹1,79,900.00" [level=3] [ref=f8e262]':
+              - generic [ref=f8e263]: Amazon
+              - generic [ref=f8e264]:
+                - text: "Subtotal (1 item):"
+                - generic [ref=f8e265]: ₹1,79,900.00
+            - generic [ref=f8e269]:
+              - checkbox "This order contains a gift" [ref=f8e270]
+              - generic [ref=f8e272]: This order contains a gift
+            - generic [ref=f8e276] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=f8e277]: Proceed to checkout
+              - generic [ref=f8e279]: Proceed to Buy
+          - button [ref=f8e285] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=f8e287]
+        - generic [ref=f8e296]:
+          - heading "Customers Who Bought iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (... Also Bought" [level=3] [ref=f8e297]
+          - list [ref=f8e298]:
+            - listitem [ref=f8e299]:
+              - generic [ref=f8e304]:
+                - link [aria-hidden] [ref=f8e307] [cursor=pointer]:
+                  - /url: /40W-Dynamic-Power-Adapter-60W/dp/B0HJBCJK3W/ref=pd_cart_crc_cko_mrai_d_sccl_1_1/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBCJK3W&psc=1
+                - generic [ref=f8e309]:
+                  - generic [ref=f8e311]:
+                    - link "40W Dynamic Power Adapter with 60W Max" [ref=f8e312] [cursor=pointer]:
+                      - /url: /40W-Dynamic-Power-Adapter-60W/dp/B0HJBCJK3W/ref=pd_cart_crc_cko_mrai_d_sccl_1_1/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBCJK3W&psc=1
+                    - link "4.5 out of 5 stars, 8 ratings" [ref=f8e317] [cursor=pointer]:
+                      - /url: /product-reviews/B0HJBCJK3W/ref=pd_cart_crc_cko_mrai_d_sccl_1_1_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBCJK3W
+                      - generic [ref=f8e319]: 4.5 out of 5 stars
+                      - text: "8"
+                  - link "See all buying options" [ref=f8e325] [cursor=pointer]:
+                    - /url: /40W-Dynamic-Power-Adapter-60W/dp/B0HJBCJK3W/ref=pd_cart_crc_cko_mrai_d_sccl_1_1_atc_o/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBCJK3W&psc=1
+            - listitem [ref=f8e326]:
+              - generic [ref=f8e331]:
+                - link [aria-hidden] [ref=f8e334] [cursor=pointer]:
+                  - /url: /Apple-iPhone-TechWoven-Case-MagSafe/dp/B0HJBHCSHY/ref=pd_cart_crc_cko_mrai_d_sccl_1_2/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBHCSHY&psc=1
+                - generic [ref=f8e336]:
+                  - generic [ref=f8e338]:
+                    - link "Apple iPhone 18 Pro Max TechWoven Case with MagSafe – Black" [ref=f8e339] [cursor=pointer]:
+                      - /url: /Apple-iPhone-TechWoven-Case-MagSafe/dp/B0HJBHCSHY/ref=pd_cart_crc_cko_mrai_d_sccl_1_2/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBHCSHY&psc=1
+                    - link "4.5 out of 5 stars, 26 ratings" [ref=f8e344] [cursor=pointer]:
+                      - /url: /product-reviews/B0HJBHCSHY/ref=pd_cart_crc_cko_mrai_d_sccl_1_2_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBHCSHY
+                      - generic [ref=f8e346]: 4.5 out of 5 stars
+                      - text: "26"
+                    - generic [ref=f8e347]:
+                      - link "₹6,900.00" [ref=f8e351] [cursor=pointer]:
+                        - /url: /Apple-iPhone-TechWoven-Case-MagSafe/dp/B0HJBHCSHY/ref=pd_cart_crc_cko_mrai_d_sccl_1_2/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJBHCSHY&psc=1
+                        - generic [ref=f8e352]:
+                          - generic [ref=f8e353]: ₹6,900.00
+                          - generic [aria-hidden] [ref=f8e354]:
+                            - text: ₹
+                            - generic [ref=f8e355]:
+                              - text: 6,900
+                              - generic [ref=f8e356]: .
+                            - text: "00"
+                      - generic [ref=f8e357]: Get it by Saturday, October 3
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e366] [cursor=pointer]:
+                    - button "Add to cart, Apple iPhone 18 Pro Max TechWoven Case with MagSafe – Black" [ref=f8e367]
+                    - generic [aria-hidden] [ref=f8e368]: Add to cart
+            - listitem [ref=f8e369]:
+              - generic [ref=f8e374]:
+                - link [aria-hidden] [ref=f8e377] [cursor=pointer]:
+                  - /url: /Apple-AirPods-5-Wireless-Earbuds/dp/B0HJ9SC113/ref=pd_cart_crc_cko_mrai_d_sccl_1_3/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJ9SC113&psc=1
+                - generic [ref=f8e379]:
+                  - generic [ref=f8e381]:
+                    - link "Apple AirPods 5 Wireless Earbuds | Bluetooth Headphones, Active Noise Cancellation, Personalised Spatial Audio, Live Translation, USB-C Charging Case, H2 Chip" [ref=f8e382] [cursor=pointer]:
+                      - /url: /Apple-AirPods-5-Wireless-Earbuds/dp/B0HJ9SC113/ref=pd_cart_crc_cko_mrai_d_sccl_1_3/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJ9SC113&psc=1
+                    - link "4.7 out of 5 stars, 4 ratings" [ref=f8e387] [cursor=pointer]:
+                      - /url: /product-reviews/B0HJ9SC113/ref=pd_cart_crc_cko_mrai_d_sccl_1_3_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJ9SC113
+                      - generic [ref=f8e389]: 4.7 out of 5 stars
+                      - text: "4"
+                    - generic [ref=f8e390]:
+                      - link "₹14,900.00" [ref=f8e394] [cursor=pointer]:
+                        - /url: /Apple-AirPods-5-Wireless-Earbuds/dp/B0HJ9SC113/ref=pd_cart_crc_cko_mrai_d_sccl_1_3/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HJ9SC113&psc=1
+                        - generic [ref=f8e395]:
+                          - generic [ref=f8e396]: ₹14,900.00
+                          - generic [aria-hidden] [ref=f8e397]:
+                            - text: ₹
+                            - generic [ref=f8e398]:
+                              - text: 14,900
+                              - generic [ref=f8e399]: .
+                            - text: "00"
+                      - generic [ref=f8e400]: Get it by Saturday, October 3
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e409] [cursor=pointer]:
+                    - button "Add to cart, Apple AirPods 5 Wireless Earbuds | Bluetooth Headphones, Active Noise Cancellation, Personalised Spatial Audio, Live Translation, USB-C Charging Case, H2 Chip" [ref=f8e410]
+                    - generic [aria-hidden] [ref=f8e411]: Add to cart
+            - listitem [ref=f8e412]:
+              - generic [ref=f8e417]:
+                - link [aria-hidden] [ref=f8e420] [cursor=pointer]:
+                  - /url: /TheGiftKart-iPhone-Pro-Max-Transparent/dp/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC&psc=1
+                - generic [ref=f8e422]:
+                  - generic [ref=f8e424]:
+                    - link "TheGiftKart Back Cover Soft Case for iPhone 18 Pro Max / 17 Pro Max | Best Camera Protection | Inbuilt Dust Plugs & Anti-Slip Grip | Ultra Clear Slim Back Cover Case (Silicone, Transparent)" [ref=f8e425] [cursor=pointer]:
+                      - /url: /TheGiftKart-iPhone-Pro-Max-Transparent/dp/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC&psc=1
+                    - link "3.9 out of 5 stars, 990 ratings" [ref=f8e430] [cursor=pointer]:
+                      - /url: /product-reviews/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC
+                      - generic [ref=f8e432]: 3.9 out of 5 stars
+                      - text: "990"
+                    - generic [ref=f8e433]:
+                      - generic [ref=f8e435]:
+                        - generic [ref=f8e436]:
+                          - link "-66%" [ref=f8e437] [cursor=pointer]:
+                            - /url: /TheGiftKart-iPhone-Pro-Max-Transparent/dp/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC&psc=1
+                          - link "₹269.00" [ref=f8e438] [cursor=pointer]:
+                            - /url: /TheGiftKart-iPhone-Pro-Max-Transparent/dp/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC&psc=1
+                            - generic [ref=f8e439]:
+                              - generic [ref=f8e440]: ₹269.00
+                              - generic [aria-hidden] [ref=f8e441]:
+                                - text: ₹
+                                - generic [ref=f8e442]:
+                                  - text: "269"
+                                  - generic [ref=f8e443]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹799.00" [ref=f8e445] [cursor=pointer]':
+                          - /url: /TheGiftKart-iPhone-Pro-Max-Transparent/dp/B0HFSC21TC/ref=pd_cart_crc_cko_mrai_d_sccl_1_4/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0HFSC21TC&psc=1
+                      - generic [ref=f8e448]: Get it by Monday, October 5
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e457] [cursor=pointer]:
+                    - button "Add to cart, TheGiftKart Back Cover Soft Case for iPhone 18 Pro Max / 17 Pro Max | Best Camera Protection | Inbuilt Dust Plugs & Anti-Slip Grip | Ultra Clear Slim Back Cover Case (Silicone, Transparent)" [ref=f8e458]
+                    - generic [aria-hidden] [ref=f8e459]: Add to cart
+            - listitem [ref=f8e460]:
+              - generic [ref=f8e465]:
+                - link [aria-hidden] [ref=f8e468] [cursor=pointer]:
+                  - /url: /iPhone-16-128-GB-Control/dp/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB&psc=1
+                - generic [ref=f8e470]:
+                  - generic [ref=f8e472]:
+                    - 'link "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White" [ref=f8e473] [cursor=pointer]':
+                      - /url: /iPhone-16-128-GB-Control/dp/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB&psc=1
+                    - link "4.5 out of 5 stars, 2,736 ratings" [ref=f8e478] [cursor=pointer]:
+                      - /url: /product-reviews/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB
+                      - generic [ref=f8e480]: 4.5 out of 5 stars
+                      - text: 2,736
+                    - generic [ref=f8e481]:
+                      - generic [ref=f8e483]:
+                        - generic [ref=f8e484]:
+                          - link "-3%" [ref=f8e485] [cursor=pointer]:
+                            - /url: /iPhone-16-128-GB-Control/dp/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB&psc=1
+                          - link "₹86,900.00" [ref=f8e486] [cursor=pointer]:
+                            - /url: /iPhone-16-128-GB-Control/dp/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB&psc=1
+                            - generic [ref=f8e487]:
+                              - generic [ref=f8e488]: ₹86,900.00
+                              - generic [aria-hidden] [ref=f8e489]:
+                                - text: ₹
+                                - generic [ref=f8e490]:
+                                  - text: 86,900
+                                  - generic [ref=f8e491]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹89,900.00" [ref=f8e493] [cursor=pointer]':
+                          - /url: /iPhone-16-128-GB-Control/dp/B0DGHZWBYB/ref=pd_cart_crc_cko_mrai_d_sccl_1_5/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0DGHZWBYB&psc=1
+                      - generic [ref=f8e496]: Get it by Saturday, October 3
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e505] [cursor=pointer]:
+                    - 'button "Add to cart, iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White" [ref=f8e506]'
+                    - generic [aria-hidden] [ref=f8e507]: Add to cart
+            - listitem [ref=f8e508]:
+              - generic [ref=f8e513]:
+                - link [aria-hidden] [ref=f8e516] [cursor=pointer]:
+                  - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D&psc=1
+                - generic [ref=f8e518]:
+                  - generic [ref=f8e520]:
+                    - 'link "Apple 2026 MacBook Neo 13\" Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, 1080p FaceTime HD Camera, Touch ID; Citrus" [ref=f8e521] [cursor=pointer]':
+                      - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D&psc=1
+                    - link "4.7 out of 5 stars, 281 ratings" [ref=f8e526] [cursor=pointer]:
+                      - /url: /product-reviews/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D
+                      - generic [ref=f8e528]: 4.7 out of 5 stars
+                      - text: "281"
+                    - generic [ref=f8e529]:
+                      - generic [ref=f8e531]:
+                        - generic [ref=f8e532]:
+                          - link "-10%" [ref=f8e533] [cursor=pointer]:
+                            - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D&psc=1
+                          - link "₹80,990.00" [ref=f8e534] [cursor=pointer]:
+                            - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D&psc=1
+                            - generic [ref=f8e535]:
+                              - generic [ref=f8e536]: ₹80,990.00
+                              - generic [aria-hidden] [ref=f8e537]:
+                                - text: ₹
+                                - generic [ref=f8e538]:
+                                  - text: 80,990
+                                  - generic [ref=f8e539]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹89,900.00" [ref=f8e541] [cursor=pointer]':
+                          - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6HZV9D/ref=pd_cart_crc_cko_mrai_d_sccl_1_6/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6HZV9D&psc=1
+                      - generic [ref=f8e544]: Get it by Friday, October 2
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e553] [cursor=pointer]:
+                    - 'button "Add to cart, Apple 2026 MacBook Neo 13\" Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 512GB SSD Storage, 1080p FaceTime HD Camera, Touch ID; Citrus" [ref=f8e554]'
+                    - generic [aria-hidden] [ref=f8e555]: Add to cart
+            - listitem [ref=f8e556]:
+              - generic [ref=f8e561]:
+                - link [aria-hidden] [ref=f8e564] [cursor=pointer]:
+                  - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                - generic [ref=f8e566]:
+                  - generic [ref=f8e568]:
+                    - link "Spigen EZ Fit Tempered glass for iPhone 18 Pro Max/17 Pro Max/16 Pro Max | [2Pack] Screen Protector Guard" [ref=f8e569] [cursor=pointer]:
+                      - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                    - link "4.3 out of 5 stars, 127,854 ratings" [ref=f8e574] [cursor=pointer]:
+                      - /url: /product-reviews/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW
+                      - generic [ref=f8e576]: 4.3 out of 5 stars
+                      - text: 127,854
+                    - generic [ref=f8e577]:
+                      - generic [ref=f8e579]:
+                        - generic [ref=f8e580]:
+                          - link "-48%" [ref=f8e581] [cursor=pointer]:
+                            - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                          - link "₹1,498.99" [ref=f8e582] [cursor=pointer]:
+                            - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                            - generic [ref=f8e583]:
+                              - generic [ref=f8e584]: ₹1,498.99
+                              - generic [aria-hidden] [ref=f8e585]:
+                                - text: ₹
+                                - generic [ref=f8e586]:
+                                  - text: 1,498
+                                  - generic [ref=f8e587]: .
+                                - text: "99"
+                          - link "(₹749.50/count)" [ref=f8e588] [cursor=pointer]:
+                            - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                        - 'link "M.R.P: ₹2,899.00" [ref=f8e590] [cursor=pointer]':
+                          - /url: /Spigen-iPhone-16-Pro-Max/dp/B0D84R9HYW/ref=pd_cart_crc_cko_mrai_d_sccl_1_7/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D84R9HYW&psc=1
+                      - generic [ref=f8e593]: Get it by Saturday, October 3
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e602] [cursor=pointer]:
+                    - button "Add to cart, Spigen EZ Fit Tempered glass for iPhone 18 Pro Max/17 Pro Max/16 Pro Max | [2Pack] Screen Protector Guard" [ref=f8e603]
+                    - generic [aria-hidden] [ref=f8e604]: Add to cart
+            - listitem [ref=f8e605]:
+              - generic [ref=f8e610]:
+                - link [aria-hidden] [ref=f8e613] [cursor=pointer]:
+                  - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B&psc=1
+                - generic [ref=f8e615]:
+                  - generic [ref=f8e617]:
+                    - 'link "Apple 2026 MacBook Neo 13″ Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, 1080p FaceTime HD Camera; Silver" [ref=f8e618] [cursor=pointer]':
+                      - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B&psc=1
+                    - link "4.7 out of 5 stars, 62 ratings" [ref=f8e623] [cursor=pointer]:
+                      - /url: /product-reviews/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8_cr/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B
+                      - generic [ref=f8e625]: 4.7 out of 5 stars
+                      - text: "62"
+                    - generic [ref=f8e626]:
+                      - generic [ref=f8e628]:
+                        - generic [ref=f8e629]:
+                          - link "-10%" [ref=f8e630] [cursor=pointer]:
+                            - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B&psc=1
+                          - link "₹71,990.00" [ref=f8e631] [cursor=pointer]:
+                            - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B&psc=1
+                            - generic [ref=f8e632]:
+                              - generic [ref=f8e633]: ₹71,990.00
+                              - generic [aria-hidden] [ref=f8e634]:
+                                - text: ₹
+                                - generic [ref=f8e635]:
+                                  - text: 71,990
+                                  - generic [ref=f8e636]: .
+                                - text: "00"
+                        - 'link "M.R.P: ₹79,900.00" [ref=f8e638] [cursor=pointer]':
+                          - /url: /Apple-2026-MacBook-Laptop-chip/dp/B0GR6J183B/ref=pd_cart_crc_cko_mrai_d_sccl_1_8/522-1543970-0959363?pd_rd_w=d0Pt7&content-id=amzn1.sym.3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_p=3164beeb-dd38-4d06-983e-392782d53baa&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GR6J183B&psc=1
+                      - generic [ref=f8e641]: Get it by Saturday, October 3
+                    - text: FREE Delivery by Amazon
+                  - generic [ref=f8e650] [cursor=pointer]:
+                    - 'button "Add to cart, Apple 2026 MacBook Neo 13″ Laptop with A18 Pro chip: Built for AI and Apple Intelligence, Liquid Retina Display, 8GB Unified Memory, 256GB SSD Storage, 1080p FaceTime HD Camera; Silver" [ref=f8e651]'
+                    - generic [aria-hidden] [ref=f8e652]: Add to cart
+      - generic [ref=f8e653]:
+        - generic [ref=f8e655]:
+          - heading "Shopping Cart" [level=2] [ref=f8e659]
+          - generic [ref=f8e662]:
+            - generic [ref=f8e663]: Price
+            - list "Shopping Cart" [ref=f8e667]:
+              - listitem [ref=f8e668]:
+                - generic [ref=f8e670]:
+                  - link [aria-hidden] [ref=f8e672] [cursor=pointer]:
+                    - /url: /gp/product/B0HJBHVTPN/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=f8e673]:
+                    - link [ref=f8e675] [cursor=pointer]:
+                      - /url: /gp/product/B0HJBHVTPN/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9″) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [level=3] [ref=f8e677]:
+                        - generic [ref=f8e678]:
+                          - generic [ref=f8e679]: iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9″) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture
+                          - generic [aria-hidden] [ref=f8e680]: iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9″) Super…
+                    - generic [ref=f8e685]:
+                      - generic [ref=f8e686]: ₹1,79,900.00
+                      - generic [aria-hidden] [ref=f8e687]:
+                        - text: ₹
+                        - generic [ref=f8e688]:
+                          - text: 1,79,900
+                          - generic [ref=f8e689]: .
+                        - text: "00"
+                    - generic [ref=f8e690]:
+                      - generic [ref=f8e691]: FREE delivery 4 - 12 Oct available at checkout
+                      - paragraph [ref=f8e696]
+                      - generic [ref=f8e700]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=f8e701]
+                        - generic [ref=f8e703]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=f8e705] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=f8e706]:
+                              - generic [ref=f8e707]: This is a gift
+                              - text: Learn more
+                      - list [ref=f8e708]:
+                        - generic [ref=f8e709]: "Colour: Burgundy"
+                        - generic [ref=f8e710]: "Size: 256 GB"
+                    - generic [ref=f8e711]:
+                      - group "Quantity is 1" [ref=f8e714]:
+                        - generic [aria-hidden] [ref=f8e715]: Quantity is 1
+                        - generic [ref=f8e717]:
+                          - button "Delete iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9&Prime;) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [ref=f8e718] [cursor=pointer]
+                          - generic [ref=f8e720]: "1"
+                          - generic [ref=f8e723]: "1"
+                          - button "Increase quantity by one, Quantity is 1, iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9&Prime;) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [ref=f8e725] [cursor=pointer]
+                      - button "Delete iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9&Prime;) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [ref=f8e729] [cursor=pointer]: Delete
+                      - button "Save for later iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9&Prime;) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [ref=f8e732] [cursor=pointer]: Save for later
+                      - button "Share iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (6.9&amp;Prime;) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture" [ref=f8e735] [cursor=pointer]: Share
+        - generic [ref=f8e739]:
+          - paragraph [ref=f8e741]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=f8e742]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - group [ref=f8e750]:
+    - heading "Customers who shopped for iPhone 18 Pro Max (256 GB) - Burgundy | 17.42 cm (... also shopped for:" [level=2] [ref=f8e755]
+    - group [ref=f8e760]:
+      - list [ref=f8e761]:
+        - listitem [ref=f8e762]:
+          - generic [ref=f8e764]:
+            - link [aria-hidden] [ref=f8e766] [cursor=pointer]:
+              - /url: /Thermaltake-CT120-Cooling-Hydrangea-500-2000/dp/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK&psc=1
+            - generic [ref=f8e769]:
+              - link "Thermaltake CT120 EX ARGB Sync PC Cooling Fan Hydrangea Blue 3 Pack/Fan/12025/PWM 500~2000 RPM/ARGB MB Sync/Hydrangea Blue" [ref=f8e770] [cursor=pointer]:
+                - /url: /Thermaltake-CT120-Cooling-Hydrangea-500-2000/dp/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK&psc=1
+              - link "4.5 out of 5 stars, 4 ratings" [ref=f8e775] [cursor=pointer]:
+                - /url: /product-reviews/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK
+                - generic [ref=f8e777]: 4.5 out of 5 stars
+                - text: "4"
+              - generic [ref=f8e778]:
+                - generic [ref=f8e780]:
+                  - generic [ref=f8e781]:
+                    - link "-63%" [ref=f8e782] [cursor=pointer]:
+                      - /url: /Thermaltake-CT120-Cooling-Hydrangea-500-2000/dp/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK&psc=1
+                    - link "₹3,289.00" [ref=f8e783] [cursor=pointer]:
+                      - /url: /Thermaltake-CT120-Cooling-Hydrangea-500-2000/dp/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK&psc=1
+                      - generic [ref=f8e784]:
+                        - generic [ref=f8e785]: ₹3,289.00
+                        - generic [aria-hidden] [ref=f8e786]:
+                          - text: ₹
+                          - generic [ref=f8e787]:
+                            - text: 3,289
+                            - generic [ref=f8e788]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹8,990.00" [ref=f8e790] [cursor=pointer]':
+                    - /url: /Thermaltake-CT120-Cooling-Hydrangea-500-2000/dp/B0D8TJFTVK/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0D8TJFTVK&psc=1
+                - generic [ref=f8e793]: Get it by Sunday, October 4
+              - text: FREE Delivery by Amazon
+            - generic [ref=f8e802] [cursor=pointer]:
+              - button "Add to cart, Thermaltake CT120 EX ARGB Sync PC Cooling Fan Hydrangea Blue 3 Pack/Fan/12025/PWM 500~2000 RPM/ARGB MB Sync/Hydrangea Blue" [ref=f8e803]
+              - generic [aria-hidden] [ref=f8e804]: Add to cart
+        - listitem [ref=f8e805]:
+          - generic [ref=f8e807]:
+            - link [aria-hidden] [ref=f8e809] [cursor=pointer]:
+              - /url: /TORRAS-Magnetic-Charging-Compatible-Shockproof/dp/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V&psc=1
+            - generic [ref=f8e812]:
+              - link "TORRAS Q3 Air for iPhone 18 Pro Max Case Cover, 360° Magnetic Stand Back Cover, Magnetic Charging Compatible, AirPro Airbag Shockproof, 300% Strong Magnets, Camera Control, Slim Case, Cosmic Purple" [ref=f8e813] [cursor=pointer]:
+                - /url: /TORRAS-Magnetic-Charging-Compatible-Shockproof/dp/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V&psc=1
+              - link "4.5 out of 5 stars, 3,648 ratings" [ref=f8e818] [cursor=pointer]:
+                - /url: /product-reviews/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V
+                - generic [ref=f8e820]: 4.5 out of 5 stars
+                - text: 3,648
+              - generic [ref=f8e821]: 4K+ viewed in past month
+              - generic [ref=f8e824]:
+                - generic [ref=f8e826]:
+                  - generic [ref=f8e827]:
+                    - link "-39%" [ref=f8e828] [cursor=pointer]:
+                      - /url: /TORRAS-Magnetic-Charging-Compatible-Shockproof/dp/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V&psc=1
+                    - link "₹8,549.00" [ref=f8e829] [cursor=pointer]:
+                      - /url: /TORRAS-Magnetic-Charging-Compatible-Shockproof/dp/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V&psc=1
+                      - generic [ref=f8e830]:
+                        - generic [ref=f8e831]: ₹8,549.00
+                        - generic [aria-hidden] [ref=f8e832]:
+                          - text: ₹
+                          - generic [ref=f8e833]:
+                            - text: 8,549
+                            - generic [ref=f8e834]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹13,999.00" [ref=f8e836] [cursor=pointer]':
+                    - /url: /TORRAS-Magnetic-Charging-Compatible-Shockproof/dp/B0H5R3819V/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0H5R3819V&psc=1
+                - generic [ref=f8e839]: Get it by Saturday, October 3
+              - text: FREE Delivery by Amazon
+            - generic [ref=f8e848] [cursor=pointer]:
+              - button "Add to cart, TORRAS Q3 Air for iPhone 18 Pro Max Case Cover, 360° Magnetic Stand Back Cover, Magnetic Charging Compatible, AirPro Airbag Shockproof, 300% Strong Magnets, Camera Control, Slim Case, Cosmic Purple" [ref=f8e849]
+              - generic [aria-hidden] [ref=f8e850]: Add to cart
+        - listitem [ref=f8e851]:
+          - generic [ref=f8e853]:
+            - link [aria-hidden] [ref=f8e855] [cursor=pointer]:
+              - /url: /casa-Metal-Floor-Lamp-Contemporary/dp/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM&psc=1
+            - generic [ref=f8e858]:
+              - 'link "tu casa Foldable Metal Floor Lamps with Beige Jute Shade for Home Décor, Bedrooms Corner, Living Room, Gifting, Diwali Decoration, Hall, Office, Study Room (Height: - 57\") - Bulb not Included" [ref=f8e859] [cursor=pointer]':
+                - /url: /casa-Metal-Floor-Lamp-Contemporary/dp/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM&psc=1
+              - link "3.2 out of 5 stars, 6 ratings" [ref=f8e864] [cursor=pointer]:
+                - /url: /product-reviews/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM
+                - generic [ref=f8e866]: 3.2 out of 5 stars
+                - text: "6"
+              - generic [ref=f8e867]: 400+ viewed in past month
+              - generic [ref=f8e870]:
+                - generic [ref=f8e872]:
+                  - generic [ref=f8e873]:
+                    - link "-65%" [ref=f8e874] [cursor=pointer]:
+                      - /url: /casa-Metal-Floor-Lamp-Contemporary/dp/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM&psc=1
+                    - link "₹1,499.00" [ref=f8e875] [cursor=pointer]:
+                      - /url: /casa-Metal-Floor-Lamp-Contemporary/dp/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM&psc=1
+                      - generic [ref=f8e876]:
+                        - generic [ref=f8e877]: ₹1,499.00
+                        - generic [aria-hidden] [ref=f8e878]:
+                          - text: ₹
+                          - generic [ref=f8e879]:
+                            - text: 1,499
+                            - generic [ref=f8e880]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹4,260.00" [ref=f8e882] [cursor=pointer]':
+                    - /url: /casa-Metal-Floor-Lamp-Contemporary/dp/B0CMGW6YCM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0CMGW6YCM&psc=1
+                - generic [ref=f8e885]: Get it by Tuesday, October 6
+              - text: FREE Delivery by Amazon
+              - generic [ref=f8e887]: Only 1 left in stock.
+            - generic [ref=f8e897] [cursor=pointer]:
+              - 'button "Add to cart, tu casa Foldable Metal Floor Lamps with Beige Jute Shade for Home Décor, Bedrooms Corner, Living Room, Gifting, Diwali Decoration, Hall, Office, Study Room (Height: - 57\") - Bulb not Included" [ref=f8e898]'
+              - generic [aria-hidden] [ref=f8e899]: Add to cart
+        - listitem [ref=f8e900]:
+          - generic [ref=f8e902]:
+            - link [aria-hidden] [ref=f8e904] [cursor=pointer]:
+              - /url: /CELLO-Pluto-Quick-Sippa-Bottle/dp/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6&psc=1
+            - generic [ref=f8e907]:
+              - link "CELLO Pluto Quick Boil Stainless Steel Electric Kettle 1.5L + Sippa Steel Water Bottle 1000ml Combo | Double Wall Cool Touch Outer Body, Auto-Shut Off Protection |Electric Kettle For Boiling Hot Water" [ref=f8e908] [cursor=pointer]:
+                - /url: /CELLO-Pluto-Quick-Sippa-Bottle/dp/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6&psc=1
+              - link "3.6 out of 5 stars, 5 ratings" [ref=f8e913] [cursor=pointer]:
+                - /url: /product-reviews/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6
+                - generic [ref=f8e915]: 3.6 out of 5 stars
+                - text: "5"
+              - generic [ref=f8e916]: 500+ viewed in past month
+              - generic [ref=f8e919]:
+                - generic [ref=f8e921]:
+                  - generic [ref=f8e922]:
+                    - link "-55%" [ref=f8e923] [cursor=pointer]:
+                      - /url: /CELLO-Pluto-Quick-Sippa-Bottle/dp/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6&psc=1
+                    - link "₹1,259.00" [ref=f8e924] [cursor=pointer]:
+                      - /url: /CELLO-Pluto-Quick-Sippa-Bottle/dp/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6&psc=1
+                      - generic [ref=f8e925]:
+                        - generic [ref=f8e926]: ₹1,259.00
+                        - generic [aria-hidden] [ref=f8e927]:
+                          - text: ₹
+                          - generic [ref=f8e928]:
+                            - text: 1,259
+                            - generic [ref=f8e929]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹2,795.00" [ref=f8e931] [cursor=pointer]':
+                    - /url: /CELLO-Pluto-Quick-Sippa-Bottle/dp/B0GMRJ9CJ6/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0GMRJ9CJ6&psc=1
+                - generic [ref=f8e934]: Get it by Saturday, October 3
+              - text: FREE Delivery by Amazon
+            - generic [ref=f8e943] [cursor=pointer]:
+              - button "Add to cart, CELLO Pluto Quick Boil Stainless Steel Electric Kettle 1.5L + Sippa Steel Water Bottle 1000ml Combo | Double Wall Cool Touch Outer Body, Auto-Shut Off Protection |Electric Kettle For Boiling Hot Water" [ref=f8e944]
+              - generic [aria-hidden] [ref=f8e945]: Add to cart
+        - listitem [ref=f8e946]:
+          - generic [ref=f8e948]:
+            - link [aria-hidden] [ref=f8e950] [cursor=pointer]:
+              - /url: /XYXX-Combed-Cotton-Regular-Waistband/dp/B0G647ZVL2/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0G8VSLLNG&psc=1
+            - generic [ref=f8e953]:
+              - link "XYXX Men's Super Combed Cotton Regular Fit Briefs with No Marks Waistband" [ref=f8e954] [cursor=pointer]:
+                - /url: /XYXX-Combed-Cotton-Regular-Waistband/dp/B0G647ZVL2/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0G8VSLLNG&psc=1
+              - link "3.9 out of 5 stars, 5 ratings" [ref=f8e959] [cursor=pointer]:
+                - /url: /product-reviews/B0G8VSLLNG/ref=pd_cart_crc_cko_sbs_d_sccl_2_5_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0G8VSLLNG
+                - generic [ref=f8e961]: 3.9 out of 5 stars
+                - text: "5"
+              - generic [ref=f8e962]: 600+ viewed in past month
+              - link "₹470.38" [ref=f8e969] [cursor=pointer]:
+                - /url: /XYXX-Combed-Cotton-Regular-Waistband/dp/B0G647ZVL2/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0G8VSLLNG&psc=1
+                - generic [ref=f8e970]:
+                  - generic [ref=f8e971]: ₹470.38
+                  - generic [aria-hidden] [ref=f8e972]:
+                    - text: ₹
+                    - generic [ref=f8e973]:
+                      - text: "470"
+                      - generic [ref=f8e974]: .
+                    - text: "38"
+            - link "See all buying options" [ref=f8e980] [cursor=pointer]:
+              - /url: /XYXX-Combed-Cotton-Regular-Waistband/dp/B0G647ZVL2/ref=pd_cart_crc_cko_sbs_d_sccl_2_5_atc_o/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0G8VSLLNG&psc=1
+        - listitem [ref=f8e981]:
+          - generic [ref=f8e983]:
+            - link [aria-hidden] [ref=f8e985] [cursor=pointer]:
+              - /url: /Wonderchef-Acura-Stainless-steel-Combo-Housewarming/dp/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST&psc=1
+            - generic [ref=f8e988]:
+              - link "Wonderchef Acura Stainless-steel Kettle 1.5L + Sippy Stainless-steel Bottle,Rapid Water Boiling in 4 Mins,Auto Shut-off,Gift Combo for Diwali and Festivals, Housewarming|1-Year Warranty,1350 Watts" [ref=f8e989] [cursor=pointer]:
+                - /url: /Wonderchef-Acura-Stainless-steel-Combo-Housewarming/dp/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST&psc=1
+              - link "3.8 out of 5 stars, 30 ratings" [ref=f8e994] [cursor=pointer]:
+                - /url: /product-reviews/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6_cr/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST
+                - generic [ref=f8e996]: 3.8 out of 5 stars
+                - text: "30"
+              - generic [ref=f8e997]: 600+ viewed in past month
+              - generic [ref=f8e1000]:
+                - generic [ref=f8e1002]:
+                  - generic [ref=f8e1003]:
+                    - link "-58%" [ref=f8e1004] [cursor=pointer]:
+                      - /url: /Wonderchef-Acura-Stainless-steel-Combo-Housewarming/dp/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST&psc=1
+                    - link "₹839.00" [ref=f8e1005] [cursor=pointer]:
+                      - /url: /Wonderchef-Acura-Stainless-steel-Combo-Housewarming/dp/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST&psc=1
+                      - generic [ref=f8e1006]:
+                        - generic [ref=f8e1007]: ₹839.00
+                        - generic [aria-hidden] [ref=f8e1008]:
+                          - text: ₹
+                          - generic [ref=f8e1009]:
+                            - text: "839"
+                            - generic [ref=f8e1010]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹2,000.00" [ref=f8e1012] [cursor=pointer]':
+                    - /url: /Wonderchef-Acura-Stainless-steel-Combo-Housewarming/dp/B0FGTT74ST/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/522-1543970-0959363?pd_rd_w=C3Ss8&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=931RPHXJCENSVNYCFJFB&pd_rd_wg=yeeQA&pd_rd_r=ff18b17b-8d77-4f90-ba6b-ce033e7b21e2&pd_rd_i=B0FGTT74ST&psc=1
+                - generic [ref=f8e1015]: Get it by Sunday, October 4
+              - text: FREE Delivery by Amazon
+            - generic [ref=f8e1024] [cursor=pointer]:
+              - button "Add to cart, Wonderchef Acura Stainless-steel Kettle 1.5L + Sippy Stainless-steel Bottle,Rapid Water Boiling in 4 Mins,Auto Shut-off,Gift Combo for Diwali and Festivals, Housewarming|1-Year Warranty,1350 Watts" [ref=f8e1025]
+              - generic [aria-hidden] [ref=f8e1026]: Add to cart
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=f8e1027]:
+    - button "Back to top" [ref=f8e1028] [cursor=pointer]
+    - generic [ref=f8e1030]:
+      - generic [ref=f8e1031]:
+        - heading "Get to Know Us" [level=6] [ref=f8e1032]
+        - list [ref=f8e1033]:
+          - listitem [ref=f8e1034]:
+            - link "About Amazon" [ref=f8e1035] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f8e1036]:
+            - link "Careers" [ref=f8e1037] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=f8e1038]:
+            - link "Press Releases" [ref=f8e1039] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f8e1040]:
+            - link "Amazon Science" [ref=f8e1041] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f8e1043]:
+        - heading "Connect with Us" [level=6] [ref=f8e1044]
+        - list [ref=f8e1045]:
+          - listitem [ref=f8e1046]:
+            - link "Facebook" [ref=f8e1047] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=f8e1048]:
+            - link "Twitter" [ref=f8e1049] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=f8e1050]:
+            - link "Instagram" [ref=f8e1051] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=f8e1053]:
+        - heading "Make Money with Us" [level=6] [ref=f8e1054]
+        - list [ref=f8e1055]:
+          - listitem [ref=f8e1056]:
+            - link "Sell on Amazon" [ref=f8e1057] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=f8e1058]:
+            - link "Sell under Amazon Accelerator" [ref=f8e1059] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=f8e1060]:
+            - link "Protect and Build Your Brand" [ref=f8e1061] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=f8e1062]:
+            - link "Amazon Global Selling" [ref=f8e1063] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=f8e1064]:
+            - link "Supply to Amazon" [ref=f8e1065] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=f8e1066]:
+            - link "Become an Affiliate" [ref=f8e1067] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=f8e1068]:
+            - link "Fulfilment by Amazon" [ref=f8e1069] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=f8e1070]:
+            - link "Advertise Your Products" [ref=f8e1071] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=f8e1072]:
+            - link "Amazon Pay on Merchants" [ref=f8e1073] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=f8e1075]:
+        - heading "Let Us Help You" [level=6] [ref=f8e1076]
+        - list [ref=f8e1077]:
+          - listitem [ref=f8e1078]:
+            - link "Your Account" [ref=f8e1079] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f8e1080]:
+            - link "Returns Centre" [ref=f8e1081] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f8e1082]:
+            - link "Recalls and Product Safety Alerts" [ref=f8e1083] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f8e1084]:
+            - link "100% Purchase Protection" [ref=f8e1085] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=f8e1086]:
+            - link "Amazon App Download" [ref=f8e1087] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=f8e1088]:
+            - link "Help" [ref=f8e1089] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=f8e1091]:
+      - link "Amazon India Home" [ref=f8e1094] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=f8e1097]:
+        - generic [ref=f8e1098]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f8e1099] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f8e1101]: English
+          - button "Expand to Change Language or Country" [ref=f8e1102] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=f8e1103] [cursor=pointer]:
+          - generic [ref=f8e1105]: India
+    - generic "More on Amazon" [ref=f8e1106]:
+      - generic "More on Amazon" [ref=f8e1107]:
+        - list [ref=f8e1108]:
+          - listitem [ref=f8e1109]:
+            - link [ref=f8e1110] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=f8e1111]
+              - generic [ref=f8e1112]: Books, art& collectibles
+          - listitem [aria-hidden] [ref=f8e1113]
+          - listitem [ref=f8e1114]:
+            - link [ref=f8e1115] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f8e1116]
+              - generic [ref=f8e1117]: Scalable CloudComputing Services
+          - listitem [aria-hidden] [ref=f8e1118]
+          - listitem [ref=f8e1119]:
+            - link [ref=f8e1120] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=f8e1121]
+              - generic [ref=f8e1122]: DownloadAudio Books
+          - listitem [aria-hidden] [ref=f8e1123]
+          - listitem [ref=f8e1124]:
+            - link [ref=f8e1125] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f8e1126]
+              - generic [ref=f8e1127]: Movies, TV& Celebrities
+        - list [ref=f8e1128]:
+          - listitem [ref=f8e1129]:
+            - link [ref=f8e1130] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f8e1131]
+              - generic [ref=f8e1132]: DesignerFashion Brands
+          - listitem [aria-hidden] [ref=f8e1133]
+          - listitem [ref=f8e1134]:
+            - link [ref=f8e1135] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=f8e1136]
+              - generic [ref=f8e1137]: Everything ForYour Business
+          - listitem [aria-hidden] [ref=f8e1138]
+          - listitem [ref=f8e1139]:
+            - link "Amazon Music Stream millions of songs" [ref=f8e1140] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=f8e1141]
+              - generic [ref=f8e1142]: Stream millions of songs
+          - listitem [aria-hidden] [ref=f8e1143]
+          - listitem [aria-hidden] [ref=f8e1144]
+    - generic [ref=f8e1145]:
+      - list [ref=f8e1146]:
+        - listitem [ref=f8e1147]:
+          - link "Conditions of Use & Sale" [ref=f8e1148] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=f8e1149]:
+          - link "Privacy Notice" [ref=f8e1150] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=f8e1151]:
+          - link "Interest-Based Ads" [ref=f8e1152] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=f8e1153]: © 1996-2026, Amazon.com, Inc. or its affiliates
