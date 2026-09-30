@@ -1,0 +1,7 @@
+playwright
+pytest-playwright
+pytest
+pytest-xdist
+
+
+# pip install -r requirements.txt
