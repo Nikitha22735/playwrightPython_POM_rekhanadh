@@ -1,0 +1,11 @@
+{
+    "positive":{
+        "username": "trainingplaywright@gmail.com",
+         "password": "Welcome@04"
+    },
+    "negative":{
+        "username": "trainingplaywright@gmail.com",
+         "password": "Welcome@04"
+    }
+  
+}

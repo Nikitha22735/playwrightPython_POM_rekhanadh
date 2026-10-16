@@ -1,0 +1,6 @@
+__pycache__
+.playwright-mcp
+allure-report
+allureresults
+report.html
+.pytest_cache

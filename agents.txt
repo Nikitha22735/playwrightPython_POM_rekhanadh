@@ -20,3 +20,13 @@ AI Agent
 3. food --
 4. phot
 
+
+=============
+
+Html
+pip install pytest-html
+Allure
+
+
+pip install allure-pytest
+
