@@ -1,8 +1,13 @@
 from playwright.sync_api import Page
+import pytest
 
 from pages.home import homePage
+from utils.jsonHandling import jsonHandling
+# data = jsonHandling("")
 
 
+
+@pytest.mark.sample
 def test_positiveLogin(page: Page, applicationNavigation, loginObj):
     homeObj = homePage(page)
 
